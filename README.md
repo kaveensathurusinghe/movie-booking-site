@@ -2,7 +2,7 @@
 
 A comprehensive web-based movie booking system built with Spring Boot that allows users to browse movies, select showtimes, book seats, and process payments.
 
-## 🚀 Features
+## Features
 
 - **Movie Management**: Browse current and upcoming movies
 - **Theatre & Screen Management**: Multiple theatres with different screens
@@ -12,7 +12,7 @@ A comprehensive web-based movie booking system built with Spring Boot that allow
 - **Admin Dashboard**: Complete admin panel for managing movies, bookings, and payments
 - **User Authentication**: Role-based access control (Admin/User)
 
-## 🛠 Tools and Frameworks Used
+## Tools and Frameworks Used
 
 ### Core Framework
 - **Spring Boot 3.4.5** - Main application framework
@@ -38,7 +38,7 @@ A comprehensive web-based movie booking system built with Spring Boot that allow
 - **Spring Security Test** - Security testing support
 - **Spring REST Docs MockMVC** - API documentation testing
 
-## 📊 Data Structures Used
+## Data Structures Used
 
 ### Core Data Structures
 - **ArrayList** - Primary collection for storing movies, bookings, screens, theatres
@@ -69,7 +69,7 @@ Set<String> availableSeats = new HashSet<>(availableList);
 private BookingQueue bookingQueue = new BookingQueue();
 ```
 
-## 🎯 OOP Concepts Used
+## OOP Concepts Used
 
 ### 1. **Encapsulation**
 - All model classes have private fields with public getters/setters
@@ -121,7 +121,7 @@ public class BookingService {
 - Constructor and field injection using `@Autowired`
 - Inversion of Control through Spring framework
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 src/
@@ -160,7 +160,7 @@ src/
 └── uploads/                   # Uploaded movie images
 ```
 
-## ⚙️ Setup and Run Guide
+## Setup and Run Guide
 
 ### Prerequisites
 - **Java 24** or higher
@@ -229,14 +229,14 @@ The application uses file-based storage by default. Data files will be created a
 - Configure admin users through Spring Security configuration
 - Default security settings are in the security configuration classes
 
-## 🚀 Running in Development Mode
+## Running in Development Mode
 
 ```bash
 # Run with dev profile for hot reloading
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
 ```
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 # Run all tests
@@ -246,7 +246,7 @@ The application uses file-based storage by default. Data files will be created a
 ./mvnw test -Dtest=BookingServiceTest
 ```
 
-## 📋 Key Features Implementation
+## Key Features Implementation
 
 - **Thread-Safe Booking**: Custom queue implementation ensures thread-safe booking operations
 - **Real-time Seat Management**: File-based seat tracking with status updates
@@ -256,7 +256,7 @@ The application uses file-based storage by default. Data files will be created a
 - **File Upload**: Movie poster upload functionality
 - **Data Persistence**: File-based storage system
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 1. **Port 8080 already in use**: Change server port in `application.properties`
@@ -268,11 +268,11 @@ The application uses file-based storage by default. Data files will be created a
 ./mvnw spring-boot:run -Ddebug
 ```
 
-## 📄 License
+## License
 
 This project is for educational purposes. Please refer to the repository for license information.
 
-## 👥 Contributors
+## Contributors
 
 - IT-23161160 - Project Developer
 
